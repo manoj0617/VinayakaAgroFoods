@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vinayaka Agro Foods - Butterfly Tutti Frutti Website
 
-## Getting Started
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/your-project-name)
 
-First, run the development server:
+## 🌟 About
 
+Professional website for **Vinayaka Agro Foods**, India's leading manufacturer and exporter of **Butterfly brand tutti frutti**. Built with Next.js 15, TypeScript, and Tailwind CSS for optimal performance and SEO.
+
+## 🚀 Live Website
+
+**Production:** [https://vinayakaagrofoods.com](https://vinayakaagrofoods.com)
+
+## ✨ Features
+
+- **SEO Optimized** - Meta tags, structured data, sitemap, robots.txt
+- **Mobile First** - Responsive design for all devices  
+- **Fast Performance** - Next.js 15 with image optimization
+- **Professional Design** - Clean, modern interface
+- **Multi-language Support Ready** - Structured for international markets
+
+### 📄 Pages
+
+- **Homepage** - Company introduction and product overview
+- **Products** - Detailed tutti frutti specifications and applications
+- **Wholesale** - Bulk pricing and trade enquiries  
+- **Export** - International markets and export documentation
+- **Contact** - Multiple contact methods and enquiry forms
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui components
+- **Deployment:** Vercel
+- **SEO:** Structured data, meta tags, sitemap
+
+## 🌍 Deployment to Vercel
+
+### 1. Push to GitHub
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git add .
+git commit -m "Ready for deployment to vinayakaagrofoods.com"
+git push origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Deploy to Vercel
+1. Go to [vercel.com](https://vercel.com)
+2. Sign up/Login with GitHub
+3. Click "New Project"
+4. Import your repository
+5. Set environment variables (see below)
+6. Deploy!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Configure Custom Domain
+1. In Vercel dashboard → Domains
+2. Add `vinayakaagrofoods.com`
+3. Add `www.vinayakaagrofoods.com`
+4. Update your domain's DNS settings as instructed
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📞 Contact Information
 
-## Learn More
+**Vinayaka Agro Foods Pvt. Ltd.**
+- 📍 Mumbai, Maharashtra, India  
+- 📞 +91-98765-43210
+- ✉️ info@vinayakaagrofoods.com
+- 🌐 vinayakaagrofoods.com
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built with ❤️ by GitHub Copilot**

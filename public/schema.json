@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Vinayaka Agro Foods",
+  "alternateName": "Butterfly Tutti Frutti",
+  "description": "Leading manufacturer and exporter of premium tutti frutti from India. Butterfly brand by Vinayaka Agro Foods.",
+  "url": "https://vinayaka-agro-foods.vercel.app",
+  "logo": "https://vinayaka-agro-foods.vercel.app/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-98765-43210",
+    "contactType": "sales",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["English", "Hindi"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Industrial Area, Food Park",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra", 
+    "postalCode": "400001",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.facebook.com/vinayakaagro",
+    "https://www.linkedin.com/company/vinayaka-agro-foods"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Vinayaka Agro Foods Team"
+  },
+  "foundingDate": "2010",
+  "numberOfEmployees": "50-100",
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Product",
+      "name": "Butterfly Tutti Frutti",
+      "description": "Premium quality candied papaya for bakeries, ice creams, and confectionery",
+      "brand": {
+        "@type": "Brand",
+        "name": "Butterfly"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Vinayaka Agro Foods"
+      }
+    }
+  }
+}

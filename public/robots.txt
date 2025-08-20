@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vinayakaagrofoods.com/sitemap.xml
+
+# Block certain paths if needed
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow all search engines to crawl
+Crawl-delay: 1

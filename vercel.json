@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "name": "vinayaka-agro-foods",
+  "alias": ["vinayakaagrofoods.com", "www.vinayakaagrofoods.com"],
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://vinayakaagrofoods.com",
+    "NEXT_PUBLIC_SITE_NAME": "Vinayaka Agro Foods",
+    "NEXT_PUBLIC_SITE_DESCRIPTION": "India's leading manufacturer and exporter of Butterfly brand tutti frutti",
+    "NEXT_PUBLIC_PHONE": "+91-98765-43210",
+    "NEXT_PUBLIC_EMAIL": "info@vinayakaagrofoods.com",
+    "NEXT_PUBLIC_EXPORT_EMAIL": "export@vinayakaagrofoods.com",
+    "NEXT_PUBLIC_WHOLESALE_EMAIL": "wholesale@vinayakaagrofoods.com"
+  },
+  "redirects": [
+    {
+      "source": "/www.vinayakaagrofoods.com/:path*",
+      "destination": "https://vinayakaagrofoods.com/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=86400"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=86400"
+        }
+      ]
+    }
+  ]
+}
