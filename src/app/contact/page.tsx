@@ -4,11 +4,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 export const metadata: Metadata = {
   title: 'Contact Vinayaka Agro Foods | Butterfly Tutti Frutti Manufacturer',
-  description: 'Get in touch with Vinayaka Agro Foods for tutti frutti requirements, wholesale orders, export enquiries, and product information. Call +91 98765 43210 or email us.',
+  description: 'Get in touch with Vinayaka Agro Foods for tutti frutti requirements, wholesale orders, export enquiries, and product information. Call +91 9441587748 or email us.',
   keywords: 'contact vinayaka agro foods, tutti frutti manufacturer contact, butterfly brand contact',
 }
 
-export default function ContactPage() {
+const ContactPage = () => {
   return (
     <>
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function ContactPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             Contact Us
           </h1>
-          <p className="mt-6 text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+          <p className="mt-6 text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
             Get in touch with Vinayaka Agro Foods for all your tutti frutti requirements. We&apos;re here to help with product information, wholesale orders, and export enquiries.
           </p>
         </div>
@@ -37,7 +37,7 @@ export default function ContactPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form className="space-y-6">
+                  <form className="space-y-6" action="mailto:contact@vinayakaagrofoods.com" method="post" encType="text/plain">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
@@ -74,6 +74,7 @@ export default function ContactPage() {
                         id="email"
                         name="email"
                         required
+                        suppressHydrationWarning={true}
                         className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                       />
                     </div>
@@ -153,11 +154,11 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <p className="font-medium text-gray-900">Vinayaka Agro Foods Pvt. Ltd.</p>
+                    <p className="font-medium text-gray-900">Vinayaka Agro Foods</p>
                     <p className="text-gray-600">
-                      123 Industrial Area, Food Park<br/>
-                      Sector 15, MIDC<br/>
-                      Mumbai, Maharashtra 400001<br/>
+                      2-100-/3 Kandivanam Village<br/>
+                      Shadnagar, Rangareddy District<br/>
+                      Telangana 509410<br/>
                       India
                     </p>
                   </div>
@@ -174,18 +175,18 @@ export default function ContactPage() {
                 <CardContent className="space-y-4">
                   <div>
                     <p className="font-medium text-gray-900">Sales & General Enquiries</p>
-                    <p className="text-gray-600">📞 +91 98765 43210</p>
-                    <p className="text-gray-600">✉️ info@vinayaka-agro.com</p>
+                    <p className="text-gray-600">📞 +91 9441587748</p>
+                    <p className="text-gray-600">✉️ contact@vinayakaagrofoods.com</p>
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Wholesale Orders</p>
-                    <p className="text-gray-600">📞 +91 98765 43211</p>
-                    <p className="text-gray-600">✉️ wholesale@vinayaka-agro.com</p>
+                    <p className="text-gray-600">📞 +91 9441587748</p>
+                    <p className="text-gray-600">✉️ contact@vinayakaagrofoods.com</p>
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Export Department</p>
-                    <p className="text-gray-600">📞 +91 98765 43212</p>
-                    <p className="text-gray-600">✉️ export@vinayaka-agro.com</p>
+                    <p className="text-gray-600">📞 +91 9441587748</p>
+                    <p className="text-gray-600">✉️ contact@vinayakaagrofoods.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -229,19 +230,11 @@ export default function ContactPage() {
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-gray-600">FSSAI License:</span>
-                      <span className="font-medium">12345678901234</span>
+                      <span className="font-medium">13624010000436</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">GST Number:</span>
-                      <span className="font-medium">29ABCDE1234F1Z5</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Export License:</span>
-                      <span className="font-medium">0123456789</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">CIN:</span>
-                      <span className="font-medium">U15139MH2010PTC123456</span>
+                      <span className="text-gray-600">GSTIN/UIN:</span>
+                      <span className="font-medium">36BNHPS4424F1ZX</span>
                     </div>
                   </div>
                 </CardContent>
@@ -263,11 +256,11 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">What is the minimum order quantity?</CardTitle>
+                <CardTitle className="text-lg">How do I get current pricing?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  For wholesale orders, our MOQ is 100kg. For export orders, MOQ starts from 1000kg depending on the destination country.
+                  Please call us at +91 9441587748 or send us a message with your requirements. Prices vary based on quantity and market conditions.
                 </p>
               </CardContent>
             </Card>
@@ -278,29 +271,29 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Yes, we provide free samples up to 500g for quality evaluation. Shipping charges may apply for international samples.
+                  Yes, we can provide small samples for quality checking. Contact us with your address and requirements.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">What are your payment terms?</CardTitle>
+                <CardTitle className="text-lg">What areas do you deliver to?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  We offer flexible payment terms: 15-45 days based on order value and customer relationship. Advance payment may be required for new customers.
+                  We primarily serve Telangana and nearby states. For other locations, please contact us to check delivery options.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Do you offer private labeling?</CardTitle>
+                <CardTitle className="text-lg">What types of tutti frutti do you make?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Yes, we offer private labeling services for bulk orders above 2000kg. Custom packaging and branding options are available.
+                  We make standard tutti frutti in various colors and sizes. Contact us to discuss your specific requirements.
                 </p>
               </CardContent>
             </Card>
@@ -311,18 +304,18 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Butterfly tutti frutti has a shelf life of 12 months from the date of manufacturing when stored in cool, dry conditions.
+                  Our tutti frutti has good shelf life when stored properly in cool, dry conditions. Contact us for specific storage instructions.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Do you export to my country?</CardTitle>
+                <CardTitle className="text-lg">Can you supply outside Telangana?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  We currently export to 15+ countries. Contact our export department with your country details for specific requirements and feasibility.
+                  We can arrange delivery to other states. Call us to discuss transportation and delivery arrangements for your location.
                 </p>
               </CardContent>
             </Card>
@@ -346,7 +339,7 @@ export default function ContactPage() {
                   <div className="text-4xl mb-4">🗺️</div>
                   <div className="text-xl font-semibold text-gray-700">Interactive Map</div>
                   <div className="text-sm text-gray-500 mt-2">
-                    Vinayaka Agro Foods, Mumbai, India
+                    Vinayaka Agro Foods, Shadnagar, Telangana, India
                   </div>
                   <p className="text-sm text-gray-400 mt-4 max-w-sm">
                     Map integration can be added using Google Maps API or similar mapping service
@@ -360,3 +353,5 @@ export default function ContactPage() {
     </>
   )
 }
+
+export default ContactPage

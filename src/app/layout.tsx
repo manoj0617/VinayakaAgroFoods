@@ -74,22 +74,22 @@ export default function RootLayout({
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+91-98765-43210',
+        telephone: '+91-9441587748',
         contactType: 'sales',
-        email: 'info@vinayakaagrofoods.com',
+        email: 'contact@vinayakaagrofoods.com',
         availableLanguage: ['English', 'Hindi']
       },
       {
         '@type': 'ContactPoint',
-        telephone: '+91-98765-43211',
+        telephone: '+91-9441587748',
         contactType: 'wholesale',
-        email: 'wholesale@vinayakaagrofoods.com'
+        email: 'contact@vinayakaagrofoods.com'
       },
       {
         '@type': 'ContactPoint',
-        telephone: '+91-98765-43212',
+        telephone: '+91-9441587748',
         contactType: 'export',
-        email: 'export@vinayakaagrofoods.com'
+        email: 'contact@vinayakaagrofoods.com'
       }
     ],
     sameAs: [
@@ -100,13 +100,13 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
+      <head suppressHydrationWarning={true}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased`} suppressHydrationWarning={true}>
         <Navbar />
         <main>{children}</main>
         <Footer />
