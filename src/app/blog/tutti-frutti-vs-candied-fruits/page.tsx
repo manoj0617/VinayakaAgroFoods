@@ -37,7 +37,7 @@ export default function TuttiFruttiVsCandiedFruitsPage() {
           <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">What is Tutti Frutti?</h2>
             <p className="text-gray-700 mb-4">
-              Tutti frutti is specifically made from raw papaya that's candied and colored. It's widely used in Indian bakery and confectionery.
+              Tutti frutti is specifically made from raw papaya that&apos;s candied and colored. It&apos;s widely used in Indian bakery and confectionery.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Key Differences</h2>
