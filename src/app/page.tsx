@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Butterfly Tutti Frutti — Manufactured by Vinayaka Agro Foods',
-  description: 'Vinayaka Agro Foods, manufacturer of Butterfly brand tutti frutti, is India\'s trusted supplier and exporter of high-quality candied papaya for bakeries, ice creams, and confectionery worldwide.',
+  title: 'Butterfly Tutti Frutti | Vinayaka Agro Foods',
+  description: 'Quality tutti frutti manufacturer from Telangana. We supply bakeries, ice cream makers, and confectioners across India and export markets.',
   keywords: 'tutti frutti, tutti frutti manufacturer India, bulk tutti frutti, wholesale tutti frutti, butterfly tutti frutti, candied papaya',
   openGraph: {
-    title: 'Butterfly Tutti Frutti — Manufactured by Vinayaka Agro Foods',
-    description: 'India\'s leading tutti frutti manufacturer and exporter. Premium quality candied papaya for global markets.',
+    title: 'Butterfly Tutti Frutti | Vinayaka Agro Foods',
+    description: 'Quality tutti frutti manufacturer from Telangana. We supply bakeries, ice cream makers, and confectioners.',
     type: 'website',
     locale: 'en_US',
   },
@@ -59,10 +59,13 @@ export default function HomePage() {
               <div className="bg-gradient-to-br from-green-200 to-orange-200 rounded-lg p-8">
                 <div className="text-center">
                   <div className="w-64 h-80 mx-auto mb-4 rounded-lg shadow-lg overflow-hidden">
-                    <img 
+                    <Image 
                       src="/front_packet_white.png" 
                       alt="Butterfly Tutti Frutti Package - Premium Quality by Vinayaka Agro Foods" 
+                      width={256}
+                      height={320}
                       className="w-full h-full object-contain"
+                      priority
                     />
                   </div>
                   <div className="text-2xl font-bold text-gray-800 mb-2">Premium Quality</div>
@@ -146,7 +149,7 @@ export default function HomePage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center text-gray-900">
                   <span className="text-2xl mr-3">�</span>
                   Direct Contact
                 </CardTitle>
@@ -241,6 +244,52 @@ export default function HomePage() {
                 </ul>
                 <Button asChild size="sm" className="w-full bg-green-600 hover:bg-green-700 text-white">
                   <Link href="/products/tutti-frutti">Learn More</Link>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Resources Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+            Resources & Services
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card>
+              <CardHeader>
+                <div className="text-4xl mb-4">📝</div>
+                <CardTitle className="text-gray-900">Blog & Recipes</CardTitle>
+                <CardDescription className="text-gray-700">
+                  Discover tutti frutti recipes, storage tips, and industry insights
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-6">
+                  Explore our collection of articles covering tutti frutti usage in baking, ice cream making, and more. Learn best practices from industry experts.
+                </p>
+                <Button asChild className="w-full bg-green-600 hover:bg-green-700 text-white">
+                  <Link href="/blog">Visit Our Blog</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="text-4xl mb-4">🌍</div>
+                <CardTitle className="text-gray-900">Export Services</CardTitle>
+                <CardDescription className="text-gray-700">
+                  Quality tutti frutti for international markets
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-6">
+                  We export Butterfly tutti frutti globally with proper certifications and packaging. Get competitive pricing for bulk international orders.
+                </p>
+                <Button asChild className="w-full bg-green-600 hover:bg-green-700 text-white">
+                  <Link href="/export">Learn About Export</Link>
                 </Button>
               </CardContent>
             </Card>

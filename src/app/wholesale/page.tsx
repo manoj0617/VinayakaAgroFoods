@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Wholesale Tutti Frutti Suppliers in India | Butterfly by Vinayaka Agro Foods',
-  description: 'Get wholesale tutti frutti pricing from India\'s leading manufacturer. Competitive rates for bulk orders, MOQ starting from 100kg. FSSAI certified quality guaranteed.',
+  title: 'Wholesale Tutti Frutti Suppliers | Butterfly India',
+  description: 'Wholesale tutti frutti from India. Competitive bulk pricing, MOQ 100kg. FSSAI certified quality from Butterfly brand manufacturer.',
   keywords: 'tutti frutti wholesale, tutti frutti wholesale price per kg, bulk tutti frutti suppliers India, tutti frutti manufacturer',
   openGraph: {
     title: 'Wholesale Tutti Frutti Suppliers | Butterfly Brand',
@@ -54,8 +54,8 @@ export default function WholesalePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="border-2 hover:border-green-200 transition-colors">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Starter</CardTitle>
-                <CardDescription>Perfect for new businesses</CardDescription>
+                <CardTitle className="text-2xl text-gray-900">Starter</CardTitle>
+                <CardDescription className="text-gray-700">Perfect for new businesses</CardDescription>
                 <div className="text-3xl font-bold text-green-600 mt-4">₹280-320</div>
                 <div className="text-sm text-gray-500">per kg</div>
               </CardHeader>
@@ -95,8 +95,8 @@ export default function WholesalePage() {
                 </span>
               </div>
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Business</CardTitle>
-                <CardDescription>For established businesses</CardDescription>
+                <CardTitle className="text-2xl text-gray-900">Business</CardTitle>
+                <CardDescription className="text-gray-700">For established businesses</CardDescription>
                 <div className="text-3xl font-bold text-green-600 mt-4">₹250-280</div>
                 <div className="text-sm text-gray-500">per kg</div>
               </CardHeader>
@@ -135,8 +135,8 @@ export default function WholesalePage() {
 
             <Card className="border-2 hover:border-green-200 transition-colors">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Enterprise</CardTitle>
-                <CardDescription>For large-scale operations</CardDescription>
+                <CardTitle className="text-2xl text-gray-900">Enterprise</CardTitle>
+                <CardDescription className="text-gray-700">For large-scale operations</CardDescription>
                 <div className="text-3xl font-bold text-green-600 mt-4">₹220-250</div>
                 <div className="text-sm text-gray-500">per kg</div>
               </CardHeader>
@@ -198,10 +198,10 @@ export default function WholesalePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🏭</div>
-                <CardTitle>Direct Manufacturer</CardTitle>
+                <CardTitle className="text-gray-900">Direct Manufacturer</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   No middleman costs. Get the best prices directly from Vinayaka Agro Foods manufacturing facility.
                 </CardDescription>
               </CardContent>
@@ -210,10 +210,10 @@ export default function WholesalePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">📦</div>
-                <CardTitle>Consistent Supply</CardTitle>
+                <CardTitle className="text-gray-900">Consistent Supply</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Monthly production capacity of 100+ tons ensures uninterrupted supply for your business needs.
                 </CardDescription>
               </CardContent>
@@ -222,10 +222,10 @@ export default function WholesalePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">✅</div>
-                <CardTitle>Quality Assured</CardTitle>
+                <CardTitle className="text-gray-900">Quality Assured</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   FSSAI certified manufacturing with consistent quality control and testing at every stage.
                 </CardDescription>
               </CardContent>
@@ -234,10 +234,10 @@ export default function WholesalePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🚚</div>
-                <CardTitle>Pan-India Delivery</CardTitle>
+                <CardTitle className="text-gray-900">Pan-India Delivery</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Established logistics network ensures timely delivery across all major cities in India.
                 </CardDescription>
               </CardContent>

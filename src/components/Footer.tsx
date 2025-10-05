@@ -40,6 +40,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/blog" className="text-gray-300 hover:text-green-400 transition-colors">
+                  Blog & Recipes
+                </Link>
+              </li>
+              <li>
+                <Link href="/export" className="text-gray-300 hover:text-green-400 transition-colors">
+                  Export Services
+                </Link>
+              </li>
+              <li>
                 <a href="tel:+919441587748" className="text-gray-300 hover:text-green-400 transition-colors">
                   Call for Pricing
                 </a>

@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 export const metadata: Metadata = {
   title: 'Tutti Frutti Exporters from India | Butterfly by Vinayaka Agro Foods',
-  description: 'Vinayaka Agro Foods exports Butterfly brand tutti frutti worldwide, meeting FSSAI and international food safety standards. Trusted Indian exporter to USA, Europe, Middle East.',
+  description: 'Butterfly tutti frutti exporter from India. FSSAI certified, international standards. Trusted supplier to USA, Europe, Middle East, and Asia.',
   keywords: 'tutti frutti exporters India, export tutti frutti to USA, Indian tutti frutti suppliers, international food export',
   openGraph: {
     title: 'Tutti Frutti Exporters from India | Butterfly',
@@ -141,7 +141,7 @@ export default function ExportPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center text-gray-900">
                   <span className="text-2xl mr-2">🇺🇸</span>
                   North America
                 </CardTitle>
@@ -160,7 +160,7 @@ export default function ExportPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center text-gray-900">
                   <span className="text-2xl mr-2">🇪🇺</span>
                   Europe
                 </CardTitle>
@@ -180,7 +180,7 @@ export default function ExportPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center text-gray-900">
                   <span className="text-2xl mr-2">🕌</span>
                   Middle East & Asia
                 </CardTitle>
@@ -321,6 +321,49 @@ export default function ExportPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Resources */}
+      <section className="py-16 bg-green-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card>
+              <CardHeader>
+                <div className="text-4xl mb-4">📦</div>
+                <CardTitle>View Our Products</CardTitle>
+                <CardDescription>
+                  Explore our complete range of Butterfly tutti frutti products
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-4">
+                  See detailed specifications, packaging options, and applications for each product variant we export.
+                </p>
+                <Button asChild className="w-full">
+                  <Link href="/products">Browse Products</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="text-4xl mb-4">📝</div>
+                <CardTitle>Read Our Blog</CardTitle>
+                <CardDescription>
+                  Recipes, industry insights, and manufacturing processes
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-4">
+                  Learn about tutti frutti applications, quality standards, and the latest food industry trends.
+                </p>
+                <Button asChild variant="outline" className="w-full">
+                  <Link href="/blog">Visit Blog</Link>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

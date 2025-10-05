@@ -10,19 +10,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Butterfly Tutti Frutti | Vinayaka Agro Foods – Manufacturer & Exporter in India",
-  description: "Vinayaka Agro Foods, manufacturer of Butterfly brand tutti frutti, is India's trusted supplier and exporter of high-quality candied papaya for bakeries, ice creams, and confectionery worldwide.",
+  description: "Manufacturer of Butterfly tutti frutti. India's trusted supplier of premium candied papaya for bakeries, ice creams, and confectionery worldwide.",
   keywords: "tutti frutti manufacturer India, tutti frutti suppliers, tutti frutti wholesale, bulk tutti frutti exporter, butterfly tutti frutti",
   authors: [{ name: "Vinayaka Agro Foods" }],
   creator: "Vinayaka Agro Foods",
   publisher: "Vinayaka Agro Foods",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://vinayakaagrofoods.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vinayakaagrofoods.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://vinayakaagrofoods.com',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vinayakaagrofoods.com',
     siteName: 'Vinayaka Agro Foods',
     title: 'Butterfly Tutti Frutti | Vinayaka Agro Foods – Manufacturer & Exporter in India',
     description: 'India\'s leading tutti frutti manufacturer and exporter. Premium quality candied papaya for global markets.',

@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Products | Butterfly Tutti Frutti by Vinayaka Agro Foods',
-  description: 'Explore our complete range of Butterfly brand tutti frutti products. Premium quality candied papaya for bakeries, ice creams, confectionery, and food manufacturing.',
+  title: 'Products | Butterfly Tutti Frutti',
+  description: 'Butterfly brand tutti frutti products. Premium candied papaya for bakeries, ice creams, and confectionery.',
   keywords: 'tutti frutti products, butterfly brand, candied papaya, bakery ingredients, ice cream ingredients',
 }
 
@@ -94,10 +94,10 @@ export default function ProductsPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🏆</div>
-                <CardTitle>Premium Quality</CardTitle>
+                <CardTitle className="text-gray-900">Premium Quality</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Made from carefully selected raw papaya using traditional methods for consistent quality.
                 </CardDescription>
               </CardContent>
@@ -106,10 +106,10 @@ export default function ProductsPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🔬</div>
-                <CardTitle>Lab Tested</CardTitle>
+                <CardTitle className="text-gray-900">Lab Tested</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Every batch is tested for quality, safety, and compliance with food standards.
                 </CardDescription>
               </CardContent>
@@ -118,10 +118,10 @@ export default function ProductsPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">📦</div>
-                <CardTitle>Multiple Pack Sizes</CardTitle>
+                <CardTitle className="text-gray-900">Multiple Pack Sizes</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Available in consumer packs (1kg) to industrial bulk packaging for all business needs.
                 </CardDescription>
               </CardContent>
@@ -130,10 +130,10 @@ export default function ProductsPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🌍</div>
-                <CardTitle>Export Quality</CardTitle>
+                <CardTitle className="text-gray-900">Export Quality</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Meets international food safety standards for global markets and export requirements.
                 </CardDescription>
               </CardContent>

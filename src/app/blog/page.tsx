@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 export const metadata: Metadata = {
   title: 'Blog | Tutti Frutti Recipes & Food Industry Insights',
-  description: 'Read our blog for tutti frutti recipes, food industry insights, manufacturing processes, and tips for bakeries and ice cream makers using Butterfly brand products.',
+  description: 'Tutti frutti recipes, industry insights, manufacturing tips for bakeries and ice cream makers. Expert guidance from Butterfly brand.',
   keywords: 'tutti frutti blog, tutti frutti recipes, food industry blog, bakery tips, ice cream recipes',
 }
 
@@ -108,10 +108,10 @@ export default function BlogPage() {
                     </span>
                     <span>{post.readTime}</span>
                   </div>
-                  <CardTitle className="text-xl leading-tight mb-3">
+                  <CardTitle className="text-xl leading-tight mb-3 text-gray-900">
                     {post.title}
                   </CardTitle>
-                  <CardDescription className="text-base">
+                  <CardDescription className="text-base text-gray-700">
                     {post.excerpt}
                   </CardDescription>
                 </CardHeader>
@@ -174,10 +174,10 @@ export default function BlogPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">📖</div>
-                <CardTitle>Recipes</CardTitle>
+                <CardTitle className="text-gray-900">Recipes</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Delicious tutti frutti recipes for cakes, ice creams, and desserts.
                 </CardDescription>
               </CardContent>
@@ -186,10 +186,10 @@ export default function BlogPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🏭</div>
-                <CardTitle>Manufacturing</CardTitle>
+                <CardTitle className="text-gray-900">Manufacturing</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Insights into tutti frutti production processes and quality control.
                 </CardDescription>
               </CardContent>
@@ -198,24 +198,27 @@ export default function BlogPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">📈</div>
-                <CardTitle>Industry Trends</CardTitle>
+                <CardTitle className="text-gray-900">Industry Trends</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Latest trends in the food industry and tutti frutti market.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="text-4xl mb-4">💡</div>
-                <CardTitle>Tips & Guides</CardTitle>
+                <div className="text-4xl mb-4">🌍</div>
+                <CardTitle className="text-gray-900">Export Services</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
-                  Professional tips for storage, usage, and best practices.
+                <CardDescription className="mb-4 text-gray-700">
+                  Learn about our international export capabilities and global reach.
                 </CardDescription>
+                <Button asChild size="sm" variant="outline" className="w-full">
+                  <Link href="/export">View Export Info</Link>
+                </Button>
               </CardContent>
             </Card>
           </div>

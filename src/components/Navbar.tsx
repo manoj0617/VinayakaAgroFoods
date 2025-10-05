@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
@@ -10,6 +11,7 @@ const Navbar = () => {
   const menuItems = [
     { href: '/', label: 'Home' },
     { href: '/products', label: 'Products' },
+    { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
   ]
 
@@ -21,10 +23,13 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <div className="w-16 h-16 mr-3 rounded-lg overflow-hidden">
-                <img 
+                <Image 
                   src="/logo_white_bg.png" 
                   alt="Butterfly Tutti Frutti Logo - Vinayaka Agro Foods" 
+                  width={64}
+                  height={64}
                   className="w-full h-full object-contain"
+                  priority
                 />
               </div>
               <div>

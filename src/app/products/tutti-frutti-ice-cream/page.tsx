@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Tutti Frutti for Ice Cream Manufacturers | Butterfly by Vinayaka Agro Foods',
-  description: 'Premium ice cream grade tutti frutti that maintains texture in frozen conditions. Perfect for tutti frutti ice cream, frozen yogurt, and desserts. Butterfly brand quality.',
+  title: 'Tutti Frutti for Ice Cream | Butterfly India',
+  description: 'Ice cream grade tutti frutti that maintains texture when frozen. Perfect for tutti frutti ice cream, frozen yogurt, and desserts. Butterfly quality.',
   keywords: 'tutti frutti ice cream, tutti frutti ice cream recipe, ice cream ingredients, frozen dessert ingredients',
 }
 
@@ -60,10 +60,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">❄️</div>
-                <CardTitle>Freeze Stable</CardTitle>
+                <CardTitle className="text-gray-900">Freeze Stable</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Maintains texture and flavor integrity at -18°C to -25°C. No crystallization or texture breakdown.
                 </CardDescription>
               </CardContent>
@@ -72,10 +72,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🎯</div>
-                <CardTitle>Perfect Bite</CardTitle>
+                <CardTitle className="text-gray-900">Perfect Bite</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Optimal texture that provides the perfect chew in frozen ice cream without becoming too hard or soft.
                 </CardDescription>
               </CardContent>
@@ -84,10 +84,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🌈</div>
-                <CardTitle>Vibrant Colors</CardTitle>
+                <CardTitle className="text-gray-900">Vibrant Colors</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Colors remain bright and appealing in frozen state. Creates attractive visual appeal in ice cream.
                 </CardDescription>
               </CardContent>
@@ -109,10 +109,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card>
               <CardHeader>
                 <div className="text-3xl mb-2">🍨</div>
-                <CardTitle>Tutti Frutti Ice Cream</CardTitle>
+                <CardTitle className="text-gray-900">Tutti Frutti Ice Cream</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   The classic tutti frutti flavor that&apos;s been a favorite for generations. Perfect blend of colors and taste.
                 </CardDescription>
                 <div className="text-sm space-y-1">
@@ -126,10 +126,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card>
               <CardHeader>
                 <div className="text-3xl mb-2">🥶</div>
-                <CardTitle>Frozen Yogurt</CardTitle>
+                <CardTitle className="text-gray-900">Frozen Yogurt</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   Add colorful tutti frutti to frozen yogurt for enhanced taste and visual appeal. Popular topping choice.
                 </CardDescription>
                 <div className="text-sm space-y-1">
@@ -143,10 +143,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card>
               <CardHeader>
                 <div className="text-3xl mb-2">🍧</div>
-                <CardTitle>Sundae Toppings</CardTitle>
+                <CardTitle className="text-gray-900">Sundae Toppings</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   Perfect as a colorful topping for ice cream sundaes, providing both visual appeal and taste variety.
                 </CardDescription>
                 <div className="text-sm space-y-1">
@@ -307,10 +307,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🧪</div>
-                <CardTitle>Lab Tested</CardTitle>
+                <CardTitle className="text-gray-900">Lab Tested</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Every batch tested for freeze-thaw stability and texture retention at various temperatures.
                 </CardDescription>
               </CardContent>
@@ -319,10 +319,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🏭</div>
-                <CardTitle>Food Grade</CardTitle>
+                <CardTitle className="text-gray-900">Food Grade</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Manufactured in FSSAI certified facility with strict hygiene and quality control protocols.
                 </CardDescription>
               </CardContent>
@@ -331,10 +331,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">❄️</div>
-                <CardTitle>Cold Chain Safe</CardTitle>
+                <CardTitle className="text-gray-900">Cold Chain Safe</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Stable throughout cold chain storage and distribution. No quality degradation.
                 </CardDescription>
               </CardContent>
@@ -343,10 +343,10 @@ export default function TuttiFruttiIceCreamPage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">✅</div>
-                <CardTitle>Consistent Quality</CardTitle>
+                <CardTitle className="text-gray-900">Consistent Quality</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Batch-to-batch consistency ensures uniform product quality in your ice cream production.
                 </CardDescription>
               </CardContent>

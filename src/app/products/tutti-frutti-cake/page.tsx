@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Tutti Frutti Cake & Baking Solutions | Butterfly by Vinayaka Agro Foods',
-  description: 'Premium tutti frutti specifically designed for cakes and baking. Heat-stable, color-retaining candied papaya perfect for bakeries. Butterfly brand by Vinayaka Agro Foods.',
+  title: 'Tutti Frutti for Cakes & Baking | Butterfly',
+  description: 'Premium tutti frutti for cakes and baking. Heat-stable candied papaya perfect for bakeries.',
   keywords: 'tutti frutti cake, tutti frutti cake recipe, bakery ingredients, heat stable tutti frutti, baking solutions',
 }
 
@@ -60,10 +60,10 @@ export default function TuttiFruttiCakePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🔥</div>
-                <CardTitle>Heat Stable</CardTitle>
+                <CardTitle className="text-gray-900">Heat Stable</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Maintains color and texture at high baking temperatures up to 180°C. Perfect for all baking applications.
                 </CardDescription>
               </CardContent>
@@ -72,10 +72,10 @@ export default function TuttiFruttiCakePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">🎨</div>
-                <CardTitle>Color Retention</CardTitle>
+                <CardTitle className="text-gray-900">Color Retention</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Vibrant colors remain bright after baking. No bleeding or fading during the baking process.
                 </CardDescription>
               </CardContent>
@@ -84,10 +84,10 @@ export default function TuttiFruttiCakePage() {
             <Card className="text-center">
               <CardHeader>
                 <div className="text-4xl mb-4">⚖️</div>
-                <CardTitle>Uniform Size</CardTitle>
+                <CardTitle className="text-gray-900">Uniform Size</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-gray-700">
                   Consistent 4-6mm pieces ensure even distribution throughout your baked goods.
                 </CardDescription>
               </CardContent>
@@ -108,10 +108,10 @@ export default function TuttiFruttiCakePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle>Fruit Cake</CardTitle>
+                <CardTitle className="text-gray-900">Fruit Cake</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   Classic fruit cake with tutti frutti. Use 150g per kg of flour for perfect texture and taste.
                 </CardDescription>
                 <ul className="text-sm space-y-1">
@@ -124,10 +124,10 @@ export default function TuttiFruttiCakePage() {
 
             <Card>
               <CardHeader>
-                <CardTitle>Muffins & Cupcakes</CardTitle>
+                <CardTitle className="text-gray-900">Muffins & Cupcakes</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   Add colorful tutti frutti to muffins and cupcakes. 50g per 12 muffins is the perfect ratio.
                 </CardDescription>
                 <ul className="text-sm space-y-1">
@@ -140,10 +140,10 @@ export default function TuttiFruttiCakePage() {
 
             <Card>
               <CardHeader>
-                <CardTitle>Cookies & Biscuits</CardTitle>
+                <CardTitle className="text-gray-900">Cookies & Biscuits</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="mb-4">
+                <CardDescription className="mb-4 text-gray-700">
                   Create colorful cookies with tutti frutti. Great for both soft and crispy varieties.
                 </CardDescription>
                 <ul className="text-sm space-y-1">

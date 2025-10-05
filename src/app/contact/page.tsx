@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Contact Vinayaka Agro Foods | Butterfly Tutti Frutti Manufacturer',
-  description: 'Get in touch with Vinayaka Agro Foods for tutti frutti requirements, wholesale orders, export enquiries, and product information. Call +91 9441587748 or email us.',
+  title: 'Contact Us | Butterfly Tutti Frutti',
+  description: 'Contact Vinayaka Agro Foods for tutti frutti orders, wholesale pricing, and export enquiries. Call +91 9441587748 or email us.',
   keywords: 'contact vinayaka agro foods, tutti frutti manufacturer contact, butterfly brand contact',
 }
 
@@ -31,8 +31,8 @@ const ContactPage = () => {
             <div>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-2xl">Send us a Message</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-2xl text-gray-900">Send us a Message</CardTitle>
+                  <CardDescription className="text-gray-700">
                     Fill out the form below and we&apos;ll get back to you within 24 hours
                   </CardDescription>
                 </CardHeader>
@@ -147,7 +147,7 @@ const ContactPage = () => {
             <div className="space-y-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center text-gray-900">
                     <span className="text-2xl mr-3">🏢</span>
                     Head Office
                   </CardTitle>
@@ -167,7 +167,7 @@ const ContactPage = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center text-gray-900">
                     <span className="text-2xl mr-3">📞</span>
                     Phone & Email
                   </CardTitle>
@@ -193,7 +193,7 @@ const ContactPage = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center text-gray-900">
                     <span className="text-2xl mr-3">⏰</span>
                     Business Hours
                   </CardTitle>
@@ -221,7 +221,7 @@ const ContactPage = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center text-gray-900">
                     <span className="text-2xl mr-3">📋</span>
                     Company Information
                   </CardTitle>

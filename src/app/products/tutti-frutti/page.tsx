@@ -4,12 +4,12 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Tutti Frutti for Bakeries, Ice Creams & Confectionery | Butterfly by Vinayaka Agro Foods',
-  description: 'Premium quality tutti frutti from Butterfly brand by Vinayaka Agro Foods. Perfect for bakeries, ice cream manufacturers, and confectionery. Available in 1kg, 5kg, and bulk packaging.',
+  title: 'Tutti Frutti for Bakeries & Ice Cream | Butterfly India',
+  description: 'Premium tutti frutti from Butterfly by Vinayaka Agro Foods. Perfect for bakeries, ice cream, and confectionery.',
   keywords: 'tutti frutti, tutti frutti price per kg, tutti frutti suppliers in India, candied papaya, bakery ingredients',
   openGraph: {
-    title: 'Premium Tutti Frutti for Food Industry | Butterfly',
-    description: 'High-quality candied papaya for bakeries, ice creams, and confectionery. FSSAI certified manufacturing.',
+    title: 'Tutti Frutti | Butterfly Brand',
+    description: 'High-quality candied papaya for bakeries and ice creams.',
     type: 'website',
   },
 }
